@@ -1,5 +1,3 @@
-Berikut contoh deskripsi profesional dan menarik untuk website **Wolf Cyber Army** beserta penjelasan fitur utamanya:
-
 ---
 
 ## 🐺 **Wolf Cyber Army**
