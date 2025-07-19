@@ -1,0 +1,39 @@
+{
+  "name": "wolf-cyber-army-backend",
+  "version": "1.0.0",
+  "description": "Backend for Wolf Cyber Army forum (Node.js, Express, Sequelize, PostgreSQL)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Wolf Cyber Army",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.5.1",
+    "express-session": "^1.18.1",
+    "file-type": "^16.5.4",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.1",
+    "mysql2": "^3.14.1",
+    "nodemailer": "^7.0.4",
+    "open": "^10.1.2",
+    "pg": "^8.16.3",
+    "pg-hstore": "^2.3.4",
+    "react-toastify": "^11.0.5",
+    "sequelize": "^6.37.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "4.6.3",
+    "umzug": "^3.8.2",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
