@@ -1,3 +1,5 @@
+
+
 ---
 
 ## 🐺 **Wolf Cyber Army**
@@ -47,5 +49,3 @@ Dapatkan akses ke berbagai **cyber toolkit profesional**, antara lain:
 
 ---
 
-**Gabung sekarang dan jadilah bagian dari pasukan serigala cyber.**
-Keamanan digital bukan hanya pilihan – tapi perlawanan.
