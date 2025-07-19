@@ -1,79 +1,52 @@
-# Register API
+🐺 Wolf Cyber Army
+"United We Howl, Divided They Fall."
 
-{
-  "username": "admin1",
-  "email": "admin1@wolfcyberarmy.com",
-  "password": "asdfghjkl6689",
-  "role": "admin"
-}
+Wolf Cyber Army adalah platform digital eksklusif yang dirancang untuk komunitas cybersecurity, ethical hacker, dan penggiat teknologi underground. Situs ini menghadirkan forum cyber aman dan VIP tools yang hanya dapat diakses oleh member terverifikasi.
 
-  "email": "admin1@wolfcyberarmy.com",
-  "password": "asdfghjkl6689"
+🔐 Fitur Unggulan:
+🧠 Forum Cyber Aman
+Tempat diskusi rahasia dan berbagi pengetahuan seputar:
 
-  "email": "krisoprasebenhaezer@gmail.com",
-  "password": "lkjhgfdsa6689"
+Teknik Ethical Hacking & Penetration Testing
 
-  Untuk menjalankan aplikasi setelah reset database, Anda bisa login dengan:
+Eksploitasi CVE terbaru
 
-Admin: admin@wolfcyberarmy.com / admin123
+OSINT & Forensik Digital
 
-{
-  "email": "admin@wolfcyberarmy.com",
-  "password": "admin123"
-}
-User: user@wolfcyberarmy.com / user123
+Tips Keamanan Jaringan dan Server
 
-{
-  "email": "user@wolfcyberarmy.com",
-  "password": "user123"
-}
+Dunia Dark Web dan Threat Intelligence
 
-http://localhost:5002/api-docs
+🔒 Forum kami dilindungi dengan lapisan keamanan ganda (end-to-end encryption + login OTP). Semua aktivitas dicatat secara anonim untuk menjaga privasi pengguna.
 
-// Prioritas selanjutnya 
+🛠️ VIP Tools – Akses Premium
+Dapatkan akses ke berbagai cyber toolkit profesional, antara lain:
 
-Foto profil user (user experience & brand) Done 
-Relasi file ke post/thread (forum lebih hidup) Done  
-Notifikasi (engagement) Done 
-Like/dislike (interaksi) Done
-Reset password (keamanan) Done
-Pagination & search (scalability) Not done
-Rate limiting (keamanan) Done
-Audit log/statistik (admin/monitoring) Not done
+🧰 Alat Pengintaian Otomatis
 
-Get-Process -Id (Get-NetTCPConnection -LocalPort 5002 -ErrorAction SilentlyContinue).OwningProcess -ErrorAction SilentlyContinue | Stop-Process -Force
+🐍 Perpustakaan Eksploitasi Python
 
-psql -U postgres
-\c wolfcyberarmy
-ALTER TABLE notifications OWNER TO kriso;
-\d notifications
+💣 DDoS Simulation Engine (untuk uji ketahanan server pribadi)
 
--- Melihat daftar tabel (tanpa menggunakan pager)
-\pset pager off
-\dt
+🔎 Pemindai Kerentanan eksklusif
 
--- Melihat detail tabel likes
-\d likes
+💼 Credential Analyzer (untuk audit keamanan data)
 
--- Mengubah kepemilikan tabel likes
-ALTER TABLE likes OWNER TO kriso;
+📡 Injektor Paket Kustom
 
--- Jika ada sequence untuk ID likes, ubah juga kepemilikannya
-ALTER SEQUENCE likes_id_seq OWNER TO kriso;
+🎯 Bypasser & Evasion Tools (khusus untuk pentest legal)
 
--- Memberikan semua hak akses
-GRANT ALL PRIVILEGES ON TABLE likes TO kriso;
-GRANT ALL PRIVILEGES ON SEQUENCE likes_id_seq TO kriso;
+Fitur ini hanya tersedia untuk member VIP yang terverifikasi dan mengikuti kode etik penggunaan.
 
--- Verifikasi perubahan
-\d likes
+⚙️ Fitur Tambahan:
+🔔 Notifikasi real-time untuk thread baru dan update tools
 
+📥 File-sharing terenkripsi antar user
 
-npm install -g vercel
-vercel login
+👑 Sistem reputasi & level berdasarkan kontribusi
 
-Cara deploy frontend:
-cd c:/Users/kriso/OneDrive/Desktop/WCA/frontend
-vercel
+🤖 Bot otomatis untuk update CVE dan bugbounty terbaru
 
-vercel
+Gabung sekarang dan jadilah bagian dari pasukan serigala cyber.
+Keamanan digital bukan hanya pilihan – tapi perlawanan.
+
